@@ -1,4 +1,5 @@
 package com.yh.until;
+
 import javax.activation.DataHandler;
 import javax.activation.FileDataSource;
 import javax.mail.*;
@@ -24,8 +25,8 @@ public class EmailUtils {
 
     //后加的防止题目过长或附件名称有中文进行全局定义
     static {
-        System.setProperty("mail.mime.splitlongparameters","false");
-        System.setProperty("mail.mime.charset","UTF-8");
+        System.setProperty("mail.mime.splitlongparameters", "false");
+        System.setProperty("mail.mime.charset", "UTF-8");
     }
 
     public void sendMessage() throws MessagingException, UnsupportedEncodingException {
@@ -88,10 +89,10 @@ public class EmailUtils {
         message.setSubject(subject); // 主题
         message.setText(content); // 内容
         //显示以html格式的文本内容
-        messageBodyPart.setContent(content,"text/html;charset=utf-8");
+        messageBodyPart.setContent(content, "text/html;charset=utf-8");
         multipart.addBodyPart(messageBodyPart);
         //保存多个附件
-        if(fileList!=null){
+        if (fileList != null) {
             addTach(fileList, multipart);
         }
         message.setContent(multipart);
@@ -145,7 +146,7 @@ public class EmailUtils {
             MimeBodyPart mailArchieve = new MimeBodyPart();
             FileDataSource fds = new FileDataSource(fileList[index]);
             mailArchieve.setDataHandler(new DataHandler(fds));
-            mailArchieve.setFileName(MimeUtility.encodeText(fds.getName(),"UTF-8","B"));
+            mailArchieve.setFileName(MimeUtility.encodeText(fds.getName(), "UTF-8", "B"));
             multipart.addBodyPart(mailArchieve);
         }
     }

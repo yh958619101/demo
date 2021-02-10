@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<h1 >love  杨宏</h1>
+<div  id="app">
+    <span v-bind:title="message">
+       鼠标置放查看
+    </span>
+
+    <!--{{message}}-->
+</div>
+<!--导入vue.js-->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script>
+    var vue = new Vue({
+        el:"#app",
+        //model  数据
+        data:{
+            message:"hello ,Vue!"
+        }
+    });
+</script>
+</body>
+</html>

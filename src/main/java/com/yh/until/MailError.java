@@ -1,9 +1,7 @@
 package com.yh.until;
 
 /**
- *
  * @author LiuJinan
- * @version V1.0.0 2016年11月23日
  * @version V1.1.0 2016年12月26日
  */
 public enum MailError {
@@ -29,7 +27,7 @@ public enum MailError {
 
     private String msg;
 
-    MailError(String msg){
+    MailError(String msg) {
         this.msg = msg;
     }
 
