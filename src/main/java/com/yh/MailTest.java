@@ -1,6 +1,6 @@
 package com.yh;
 
-import com.yh.until.MailUtil;
+import com.yh.Util.MailUtil;
 
 /**
  * @author Administrator

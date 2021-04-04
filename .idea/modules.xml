@@ -3,12 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mykit-excel-annotation/mykit-excel-annotation.iml" filepath="$PROJECT_DIR$/mykit-excel-annotation/mykit-excel-annotation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mykit-excel-common/mykit-excel-common.iml" filepath="$PROJECT_DIR$/mykit-excel-common/mykit-excel-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mykit-excel-servlet/mykit-excel-servlet.iml" filepath="$PROJECT_DIR$/mykit-excel-servlet/mykit-excel-servlet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mykit-excel-springboot/mykit-excel-springboot.iml" filepath="$PROJECT_DIR$/mykit-excel-springboot/mykit-excel-springboot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mykit-excel-springmvc/mykit-excel-springmvc.iml" filepath="$PROJECT_DIR$/mykit-excel-springmvc/mykit-excel-springmvc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mykit-excel-test/mykit-excel-test.iml" filepath="$PROJECT_DIR$/mykit-excel-test/mykit-excel-test.iml" />
     </modules>
   </component>
 </project>

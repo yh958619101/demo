@@ -1,8 +1,8 @@
 package com.yh;
 
 import com.yh.entity.User;
-import com.yh.until.ExcelUtil;
-import com.yh.until.MailUtil;
+import com.yh.Util.ExcelUtil;
+import com.yh.Util.MailUtil;
 import com.yh.vo.testVo;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
